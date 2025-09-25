@@ -1,0 +1,62 @@
+.progress-container {
+  display: flex;
+  gap: 16px;
+  margin: auto;
+  padding: 80px;
+}
+
+.progress-card {
+  position: relative;
+
+  border-radius: 8px;
+  background: linear-gradient(125.07deg, #632ee3, #9f62f2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resolved-card {
+  position: relative;
+
+  border-radius: 8px;
+  background: linear-gradient(90deg, #54CF68, #00827A);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vector1 {
+  width: 720px;
+  height: 300px;
+}
+
+.vector2 {
+  width: 720px;
+  height: 300px;
+  transform: rotate(-180deg);
+}
+
+.text-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
